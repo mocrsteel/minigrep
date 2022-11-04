@@ -10,14 +10,8 @@ lint:
   enabled:
     - git-diff-check
     - clippy@1.58.1
-    - taplo@0.7.0
     - gitleaks@8.15.0
-    - prettier@2.7.1
     - rustfmt@1.58.1
-runtimes:
-  enabled:
-    - go@1.18.3
-    - node@16.14.2
 actions:
   enabled:
     - trunk-announce
